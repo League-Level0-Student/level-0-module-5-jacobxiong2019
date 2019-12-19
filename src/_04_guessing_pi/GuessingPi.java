@@ -8,11 +8,18 @@ import javax.swing.JOptionPane;
 
 public class GuessingPi {
 	// 1. Make a main method and make sure your program can run
-
+	public static void main(String[] args) {
+		
+	
 		// 2. Make a String variable to hold the value of Pi.
+		String pi = "3.1415926535897932384626433832795028841971693993751058209749445923078164062862089986280348253421"
+				+ "170679821480865132823066470938446095505822317253594081284811174502841027019385211055596446229489549"
+				+ "303819644288109756659334461284756482337867831652712019091456485669234603486104543266482133936072602"
+				+ "49141273724587006606315588174881520";
 		//    Get the first few digits from http://www.piday.org/million/.
 
 		// 3. Print out the first 3 digits of Pi to the console.
+				System.out.println(pi.charAt(0)+ "" + pi.charAt(1) + "" + pi.charAt(2) + "" + pi.charAt(3));
 		//    The first value is "pi.charAt(0)", the second is "pi.charAt(1)", etc.
 		//    Run your program to see how this works.
 
@@ -20,6 +27,7 @@ public class GuessingPi {
 		//    put a for loop around steps 4-8.
 
 			// 4. Create a for loop that will step through each digit of pi (steps 5-8)
+				for(int i )
 			//    NOTE: The number of digits in your string will be
 			//       yourStringVariable.length()
 
@@ -33,7 +41,7 @@ public class GuessingPi {
 
 					// 8. If they are not, print out "incorrect" and tell them
 					//    to start over. Use 'break;' to break out of the loop.
-
+	}
 }
 
 
