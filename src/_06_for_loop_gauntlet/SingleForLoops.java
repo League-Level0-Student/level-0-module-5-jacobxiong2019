@@ -40,7 +40,7 @@ public static void main(String[] args) {
 		}
 		System.out.println("------------------");
 		int year = 2007;
-		for(int i7 = 0; i7 < 13; i7++)
+		for(int i7 = 0; i7 < 14; i7++)
 		
 		{
 			System.out.println("I was born in " + year + " and I was " + i7 + " years old.");
