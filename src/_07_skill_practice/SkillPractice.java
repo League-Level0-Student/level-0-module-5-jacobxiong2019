@@ -107,17 +107,17 @@ else
 
 //If there is more than 1 car, use a pop-up to display how many wheels the// cars have between them. 
 
-
+JOptionPane.showMessageDialog(null, "The cars I have have 8 wheels in total.");
 
 }
 
 void skill5() {// In a pop-up, ask the user for the name of their school 
 
-
+	String school = JOptionPane.showInputDialog("What is the name of your school?");
 
 //In another pop-up, tell the user, that their school is a fantastic school.// You must include the name of the school in the message. 
 
-
+	JOptionPane.showMessageDialog(null, school + " is a fantastic school.");
 
 	}
 }
